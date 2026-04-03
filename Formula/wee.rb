@@ -1,25 +1,25 @@
 class Wee < Formula
   desc "Wee - Control center and wrapper for Claude Code"
   homepage "https://github.com/schlunsen/wee"
-  version "1.7.0"
+  version "1.8.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/schlunsen/wee/releases/download/v1.7.0/wee-darwin-arm64.tar.gz"
-      sha256 "a1543a42f7529535c46dd0c5bd7ad6017664e170d10ec4cb7ee239ac3ba48cad"
+      url "https://github.com/schlunsen/wee/releases/download/v1.8.0/wee-darwin-arm64.tar.gz"
+      sha256 "4d6eb3cdf927f05e6842842b714e295a9dd8db641b28b1d586ef5e975ee8070f"
     else
-      url "https://github.com/schlunsen/wee/releases/download/v1.7.0/wee-darwin-amd64.tar.gz"
-      sha256 "3e1276ea54c54b3c836a760b1138a77b04683a2ced6f7d73faacad8e7a7e488a"
+      url "https://github.com/schlunsen/wee/releases/download/v1.8.0/wee-darwin-amd64.tar.gz"
+      sha256 "3fccbf96f315a4ab1ce2b0a238f9caf198c77f128eca379376db22ac16815ada"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/schlunsen/wee/releases/download/v1.7.0/wee-linux-arm64"
-      sha256 "8718208eb050fe34a171f1f0a862eb5304705dc647a71d8c65649aaade3a8526"
+      url "https://github.com/schlunsen/wee/releases/download/v1.8.0/wee-linux-arm64"
+      sha256 "b3bcb7a55665fab6ebf97dbf9c64d15e5519d2da80acbfa60d6a9fe381d9d8d5"
     else
-      url "https://github.com/schlunsen/wee/releases/download/v1.7.0/wee-linux-amd64"
-      sha256 "e53d149de9e5d2713c6e85ac5a95bb3b7b699240477388950cc01e11108be8f9"
+      url "https://github.com/schlunsen/wee/releases/download/v1.8.0/wee-linux-amd64"
+      sha256 "62930d2ddb71fdb43cbb6cc2a7fe90987acb4926bfd03ad9f2a9911b89cbcd92"
     end
   end
 
